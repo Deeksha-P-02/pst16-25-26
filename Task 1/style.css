@@ -1,0 +1,37 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: inline-block;
+    margin-right: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.skill span {
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    font-size: 13px;
+}
+
+
+footer {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #555;
+}

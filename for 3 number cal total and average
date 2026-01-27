@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first mark:");
+        int m1 = sc.nextInt();
+        System.out.println("Enter the second mark:");
+        int m2 = sc.nextInt();
+        System.out.println("Enter the third mark:");
+        int m3 = sc.nextInt();
+        int total =m1 + m2 + m3;
+        int average = total/3;
+        System.out.println("Total =" + total);
+        System.out.println("Average =" + average);
+        
+
+        sc.close();
+    }
+}

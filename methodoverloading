@@ -1,0 +1,55 @@
+package PST;
+
+public class MethOverloading {
+
+	public static void main(String[] args) {
+		
+		int  a=10,b=20;
+		
+		System.out.println(add(a,b));
+		System.out.println(sub(a,b));
+		System.out.println(mul(a,b));
+		System.out.println(div(a,b));
+		
+		int c=30,d=40,e=50;
+		System.out.println(Meth(c,d));
+		System.out.println(Meth(c,d,e));
+	}
+
+     
+    public static int add(int a,int b) {
+    	
+    	
+    	
+    	System.out.println("The  Added value is:");
+    	return a+b;
+    }
+    
+ 
+    public static int Meth(int c,int d) {
+    	
+    	System.out.println("The Values is:");
+    	return  c+d;
+    }
+    public static int Meth(int c,int d,int e) {
+ 	
+ 	    System.out.println("The  next Added value is:");
+    	return c+d+e;
+    }
+    
+     
+    public static int sub(int a,int b) {
+    	System.out.println("The  Subtracted value is:");
+    	return a-b;
+    }
+    public static int mul(int a,int b) {
+    	
+    	
+    	System.out.println("The  multiplied value is:");
+    	return a*b;
+    }
+    public static int div(int a,int b) {
+    	System.out.println("The  divided value is:");
+    	return a/b;
+    } 
+}
